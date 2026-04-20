@@ -67,9 +67,9 @@ a {
 
 .brand a {
   color: var(--text);
-  font-family: "Crimson Text", serif;
+  font-family: "Source Sans 3", sans-serif;
   font-size: 1.4rem;
-  font-weight: 700;
+  font-weight: 600;
   text-decoration: none;
 }
 
@@ -123,10 +123,39 @@ a {
   margin-top: 0;
 }
 
+.subtitle-small {
+  font-size: 0.92rem;
+  margin-bottom: 1rem;
+}
+
 .grid-two {
   display: grid;
   gap: 1.3rem;
   grid-template-columns: 1fr 1fr;
+}
+
+.intro-layout {
+  align-items: start;
+  animation: fadeSlide 0.45s ease-out;
+  border-bottom: 1px solid var(--line);
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 220px 1fr;
+  margin-bottom: 2rem;
+  padding: 2.2rem 0 1.4rem;
+}
+
+.photo-card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  height: 220px;
+  overflow: hidden;
+  width: 220px;
+}
+
+.intro-content h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin-bottom: 0.25rem;
 }
 
 section {
@@ -223,8 +252,14 @@ section {
     padding: 0.7rem 0;
   }
 
-  .grid-two {
+  .grid-two,
+  .intro-layout {
     grid-template-columns: 1fr;
+  }
+
+  .photo-card {
+    height: 180px;
+    width: 180px;
   }
 
   .year {
