@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV | Laura Volponi</title>
+    <meta name="description" content="Curriculum vitae of Laura Volponi." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Source+Sans+3:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <a href="index.html" aria-label="Home">Laura Volponi</a>
+        </div>
+        <nav aria-label="Main navigation">
+          <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="teaching.html">Teaching</a></li>
+            <li><a class="active" href="cv.html">CV</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero compact">
+        <h1>Curriculum Vitae</h1>
+        <p>
+          <a class="button" href="assets/cv/laura-volponi-cv.pdf" download>
+            Download CV (PDF)
+          </a>
+          <a class="button secondary" href="assets/cv/laura-volponi-cv.pdf" target="_blank" rel="noopener noreferrer">
+            Open in new tab
+          </a>
+        </p>
+      </section>
+
+      <section class="pdf-frame-wrap" aria-label="Embedded CV PDF viewer">
+        <object
+          data="assets/cv/laura-volponi-cv.pdf"
+          type="application/pdf"
+          width="100%"
+          height="900"
+        >
+          <p>
+            Your browser does not support embedded PDFs.
+            <a href="assets/cv/laura-volponi-cv.pdf">Click here to view the CV.</a>
+          </p>
+        </object>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Last updated: April 2026</p>
+      </div>
+    </footer>
+  </body>
+</html>
