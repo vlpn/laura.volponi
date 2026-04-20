@@ -173,6 +173,25 @@ section {
   color: #12293b;
 }
 
+.photo-placeholder {
+  align-items: center;
+  background: repeating-linear-gradient(
+    -45deg,
+    #f0f3f6,
+    #f0f3f6 12px,
+    #e4e9ef 12px,
+    #e4e9ef 24px
+  );
+  border: 1px dashed #9aa8b6;
+  border-radius: 8px;
+  color: #2f4a60;
+  display: flex;
+  font-weight: 600;
+  justify-content: center;
+  min-height: 250px;
+  width: 100%;
+}
+
 .pdf-frame-wrap {
   background: var(--surface);
   border: 1px solid var(--line);
