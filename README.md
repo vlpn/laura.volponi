@@ -31,8 +31,11 @@ Open `index.html` directly in a browser, or use VS Code Live Server if you prefe
 
 1. Create a GitHub repository and push this project.
 2. In GitHub, open Settings > Pages.
-3. Select "GitHub Actions" as the source.
-4. The workflow in `.github/workflows/deploy.yml` will publish the site automatically on every push to `main`.
+3. Under "Build and deployment", choose:
+	- Source: Deploy from a branch
+	- Branch: main
+	- Folder: /(root)
+4. Click Save. The site will publish from the `main` branch.
 
 ## Suggested next edits
 
