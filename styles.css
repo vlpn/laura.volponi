@@ -225,9 +225,9 @@ section {
   text-decoration: none;
 }
 
-.blank-name {
+.name-gap {
   display: inline-block;
-  min-width: 11ch;
+  width: 0.75em;
 }
 
 .button {
