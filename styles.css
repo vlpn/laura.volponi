@@ -225,6 +225,11 @@ section {
   text-decoration: none;
 }
 
+.blank-name {
+  display: inline-block;
+  min-width: 11ch;
+}
+
 .button {
   background: var(--accent);
   border: 1px solid var(--accent);
