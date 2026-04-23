@@ -225,11 +225,6 @@ section {
   text-decoration: none;
 }
 
-.name-gap {
-  display: inline-block;
-  width: 0.75em;
-}
-
 .button {
   background: var(--accent);
   border: 1px solid var(--accent);
