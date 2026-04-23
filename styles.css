@@ -1,6 +1,6 @@
 :root {
-  --bg: #fbfaf7;
-  --surface: #ffffff;
+  --bg: #fff8ec;
+  --surface: #fffdf8;
   --text: #1f2428;
   --muted: #5b646e;
   --line: #d8d8d8;
@@ -19,7 +19,7 @@ body {
 }
 
 body {
-  background: radial-gradient(circle at 20% 0%, #f3efe5 0, transparent 40%), var(--bg);
+  background: radial-gradient(circle at 20% 0%, #fff2d8 0, transparent 40%), var(--bg);
   color: var(--text);
   font-family: "Source Sans 3", Georgia, serif;
   line-height: 1.6;
@@ -50,9 +50,8 @@ a {
 }
 
 .site-header {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 248, 234, 0.96);
   backdrop-filter: blur(4px);
-  border-bottom: 1px solid var(--line);
   position: sticky;
   top: 0;
   z-index: 10;
@@ -96,7 +95,6 @@ a {
 
 .hero {
   animation: fadeSlide 0.45s ease-out;
-  border-bottom: 1px solid var(--line);
   margin-bottom: 2rem;
   padding: 3rem 0 1.25rem;
 }
@@ -143,7 +141,6 @@ a {
 .intro-layout {
   align-items: start;
   animation: fadeSlide 0.45s ease-out;
-  border-bottom: 1px solid var(--line);
   display: grid;
   gap: 1.5rem;
   grid-template-columns: 220px 1fr;
@@ -277,7 +274,6 @@ section {
 }
 
 .site-footer {
-  border-top: 1px solid var(--line);
   color: var(--muted);
   font-size: 0.92rem;
   margin-top: 2rem;
