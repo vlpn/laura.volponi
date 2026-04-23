@@ -184,6 +184,10 @@ section {
   margin-bottom: 0.7rem;
 }
 
+.research-gap {
+  margin-bottom: 3rem;
+}
+
 .meta-list,
 .plain-list,
 .timeline,
@@ -217,8 +221,8 @@ section {
 
 .project-title {
   color: var(--accent);
-  text-decoration: underline;
-  text-underline-offset: 2px;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .button {
