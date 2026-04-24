@@ -1,6 +1,6 @@
 :root {
-  --bg: #fff8ec;
-  --surface: #fffdf8;
+  --bg: #fff8ea;
+  --surface: #fff8ea;
   --text: #1f2428;
   --muted: #5b646e;
   --line: #d8d8d8;
@@ -19,7 +19,7 @@ body {
 }
 
 body {
-  background: radial-gradient(circle at 20% 0%, #fff2d8 0, transparent 40%), var(--bg);
+  background: var(--bg);
   color: var(--text);
   font-family: "Source Sans 3", Georgia, serif;
   line-height: 1.6;
